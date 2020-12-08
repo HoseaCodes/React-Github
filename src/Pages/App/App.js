@@ -34,10 +34,10 @@ function App() {
           <div className='container'>
             <h1> User Github Info</h1>
           </div>
-          <form>
+          {/* <form>
             <input type="text" placeholder="Find a Github User" size="50"></input>
             <button type='submit'><span role='img' aria-label='eyes'>👀</span> Look Around <span role='img' aria-label='eyes'>👀</span></button>
-          </form>
+          </form> */}
           <div className='repo-container'>
             <Users isLoading={githubUser.loading} user={githubUser.user} />
             <Repo isLoading={githubUser.loading} repos={githubUser.repos} />
